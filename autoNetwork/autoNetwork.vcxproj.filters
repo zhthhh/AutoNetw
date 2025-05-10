@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{ccacf23e-911f-4a2f-be94-e838ba91300d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="j">
+      <UniqueIdentifier>{f058f851-77bf-435a-a8b7-de4365609321}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="autoNetwork.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="getIP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\opensourceproj\uuid\sole-master\sole-master\sole.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="getIP.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\account.txt">
+      <Filter>data</Filter>
+    </Text>
+    <Text Include="data\campusIP.txt">
+      <Filter>data</Filter>
+    </Text>
+    <Text Include="data\passw.txt">
+      <Filter>data</Filter>
+    </Text>
+    <Text Include="data\state.txt">
+      <Filter>data</Filter>
+    </Text>
+    <Text Include="data\YYS.TXT">
+      <Filter>data</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="getIP.ps1">
+      <Filter>j</Filter>
+    </None>
+    <None Include="work.ps1">
+      <Filter>j</Filter>
+    </None>
+    <None Include="zqd.ps1">
+      <Filter>j</Filter>
+    </None>
+  </ItemGroup>
+</Project>
